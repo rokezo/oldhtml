@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+.edit-cont {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.edit-cont h3 {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.edit-cont h3:hover {
+    background-color: #2b2626;
+    color: #fff; 
+}
+.list-container {
+    background-color: grey;
+}

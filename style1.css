@@ -1,0 +1,35 @@
+.product {
+    border: 1px solid #000;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5%;
+}
+
+.products-container {
+    max-width: 100%;
+    text-align: center;
+}
+
+.products-container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.caption {
+    font-size: 14px;
+}
+
+
+.text-container {
+    text-align: center;
+    border-top: 1px solid black;
+}
